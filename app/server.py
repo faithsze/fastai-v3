@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1cTAR5XIXr-EFH_mylcB425y_YsBb7xR6'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1LHzeuHnXG5kS-88ixen32ivos9T9zWd5'
+export_file_name = 'export.pkl (1)'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['charmander', 'bulbasaur', 'pikachu', 'squirtle']
 path = Path(__file__).parent
 
 app = Starlette()
